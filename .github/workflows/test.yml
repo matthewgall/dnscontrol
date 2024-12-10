@@ -27,7 +27,3 @@ jobs:
         uses: koenrh/dnscontrol-action@v3
         with:
           args: check
-      - name: Preview
-        uses: koenrh/dnscontrol-action@v3
-        with:
-          args: preview

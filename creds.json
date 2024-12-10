@@ -1,0 +1,10 @@
+{
+  "bind": {
+    "TYPE": "BIND"
+  },
+  "cloudflare_gallfamily": {
+    "TYPE": "CLOUDFLAREAPI",
+    "accountid": "bc10fee56651a24f578ee57a2ce92a2e",
+    "apitoken": "$CLOUDFLARE_DNSCONTROL_TOKEN"
+  }
+}

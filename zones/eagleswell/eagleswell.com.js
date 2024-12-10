@@ -13,4 +13,4 @@ D("eagleswell.com", REG_NONE, DnsProvider(DNS_CLOUDFLARE_EAGLESWELL),
 	TXT("_dmarc", "v=DMARC1;  p=reject; rua=mailto:20d4af884d5c47bd9c03b52274856978@dmarc-reports.cloudflare.net"),
 	// SPF
 	TXT("@", "v=spf1 include:_spf.google.com -all"),
-);
+END);

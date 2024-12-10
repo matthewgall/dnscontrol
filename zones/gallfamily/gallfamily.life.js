@@ -9,4 +9,4 @@ D("gallfamily.life", REG_NONE, DnsProvider(DNS_CLOUDFLARE_GALLFAMILY),
 	TXT("_dmarc", "v=DMARC1; p=quarantine; rua=mailto:e487274fc5804f68b72288534d90da3c@dmarc-reports.cloudflare.net"),
 	// SPF
     TXT("@", "v=spf1 include:zoho.com -all"),
-);
+END);

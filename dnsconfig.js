@@ -4,6 +4,7 @@
 // Providers:
 var REG_NONE = NewRegistrar("none");    // No registrar.
 var DNS_BIND = NewDnsProvider("bind");  // ISC BIND.
+var DNS_CLOUDFLARE_EAGLESWELL = NewDnsProvider("cloudflare_eagleswell"); // Cloudflare (Eagleswell Primary School)
 var DNS_CLOUDFLARE_GALLFAMILY = NewDnsProvider("cloudflare_gallfamily"); // Cloudflare (Gall Family)
 
 // Macros:
@@ -16,12 +17,23 @@ var ZOHO_MX_RECORDS = [
     MX("@", 5, "mx2.zoho.com."),
 	MX("@", 5, "mx3.zoho.com."),
 ]
+var GOOGLE_APPS_MX_RECORDS = [
+    MX("@", 1, "aspmx.l.google.com."),
+    MX("@", 5, "alt1.aspmx.l.google.com."),
+    MX("@", 5, "alt2.aspmx.l.google.com."),
+    MX("@", 10, "alt3.aspmx.l.google.com."),
+    MX("@", 10, "alt4.aspmx.l.google.com."),
+]
 var SMTP2GO_RECORDS = [
     CNAME("s627950._domainkey", "dkim.smtp2go.net."),
     CNAME("em627950", "return.smtp2go.net."),
 ]
 
 // Domains:
+
+//// Eagleswell
+require('./zones/eagleswell/eagleswell.com.js');
+
 //// Gall Family
 require('./zones/gallfamily/gallfamily.chat.js');
 require('./zones/gallfamily/gallfamily.cloud.js');

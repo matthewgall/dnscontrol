@@ -24,6 +24,7 @@ var SMTP2GO_RECORDS = [
 // Domains:
 //// Gall Family
 require('./zones/gallfamily/gallfamily.chat.js');
+require('./zones/gallfamily/gallfamily.cloud.js');
 require('./zones/gallfamily/gallfamily.co.js');
 require('./zones/gallfamily/gallfamily.co.uk.js');
 require('./zones/gallfamily/gallfamily.com.js');

@@ -12,6 +12,9 @@ on:
   workflow_dispatch:
   repository_dispatch:
 
+env:
+  CLOUDFLARE_DNSCONTROL_TOKEN: ${{ secrets.CLOUDFLARE_DNSCONTROL_TOKEN }}
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -23,7 +26,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - name: Test
+      - name: Check
         uses: koenrh/dnscontrol-action@v3
         with:
           args: check
+      - name: Preview
+        uses: koenrh/dnscontrol-action@v3
+        with:
+          args: preview

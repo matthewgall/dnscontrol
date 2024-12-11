@@ -45,3 +45,4 @@ require('./zones/gallfamily/gallfamily.info.js');
 require('./zones/gallfamily/gallfamily.life.js');
 require('./zones/gallfamily/gallfamily.me.js');
 require('./zones/gallfamily/gallfamily.net.js');
+require('./zones/gallfamily/gallfamily.network.js');

@@ -11,5 +11,10 @@
     "TYPE": "CLOUDFLAREAPI",
     "accountid": "84da30f98e5268d854f8780bb71b4dc8",
     "apitoken": "$CLOUDFLARE_DNSCONTROL_TOKEN"
+  },
+  "cloudflare_swam": {
+    "TYPE": "CLOUDFLAREAPI",
+    "accountid": "6307b389a695fdf5c2a3a09f180c3f55",
+    "apitoken": "$CLOUDFLARE_DNSCONTROL_TOKEN"
   }
 }

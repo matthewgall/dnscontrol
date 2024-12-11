@@ -6,11 +6,19 @@ var REG_NONE = NewRegistrar("none");    // No registrar.
 var DNS_BIND = NewDnsProvider("bind");  // ISC BIND.
 var DNS_CLOUDFLARE_EAGLESWELL = NewDnsProvider("cloudflare_eagleswell"); // Cloudflare (Eagleswell Primary School)
 var DNS_CLOUDFLARE_GALLFAMILY = NewDnsProvider("cloudflare_gallfamily"); // Cloudflare (Gall Family)
+var DNS_CLOUDFLARE_SWAM = NewDnsProvider("cloudflare_swam"); // Cloudflare (South Wales Aviation Museum)
 
 // Macros:
 var CLOUDFLARE_DISCARD_RECORDS = [
     AAAA("@", "0100::", CF_PROXY_ON),
     CNAME("www", "@", CF_PROXY_ON),
+]
+var FASTMAIL_MX_RECORDS = [
+    MX("@", 1, "in1-smtp.messagingengine.com."),
+	MX("@", 5, "in2-smtp.messagingengine.com."),
+	SRV("_imaps._tcp", 0, 1, 993, "imap.fastmail.com."),
+	SRV("_pop3s._tcp", 0, 1, 995, "pop.fastmail.com."),
+	SRV("_submission._tcp", 0, 1, 567, "smtp.fastmail.com."),
 ]
 var ZOHO_MX_RECORDS = [
     MX("@", 1, "mx.zoho.com."),
@@ -46,3 +54,6 @@ require('./zones/gallfamily/gallfamily.life.js');
 require('./zones/gallfamily/gallfamily.me.js');
 require('./zones/gallfamily/gallfamily.net.js');
 require('./zones/gallfamily/gallfamily.network.js');
+
+// South Wales Aviation Museum
+require('./zones/swam/swam.museum.js');

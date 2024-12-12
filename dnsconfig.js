@@ -56,4 +56,5 @@ require('./zones/gallfamily/gallfamily.net.js');
 require('./zones/gallfamily/gallfamily.network.js');
 
 // South Wales Aviation Museum
+require('./zones/swam/aviationmuseum.wales.js');
 require('./zones/swam/swam.museum.js');

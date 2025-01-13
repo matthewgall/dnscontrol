@@ -4,7 +4,7 @@ D("gallfamily.news", REG_NONE, DnsProvider(DNS_CLOUDFLARE_GALLFAMILY),
     // Zoho
     ZOHO_MX_RECORDS,
     // DMARC
-	TXT("_dmarc", "v=DMARC1; p=reject; rua=mailto:1394e266f850404e8ad59a47578ce761@dmarc-reports.cloudflare.net"),
+	TXT("_dmarc", "v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;"),
 	// SPF
     TXT("@", "v=spf1 include:zoho.com -all"),
 END);

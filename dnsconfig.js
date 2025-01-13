@@ -67,6 +67,7 @@ require('./zones/gallfamily/gallfamily.org.js');
 require('./zones/matthewgall/matthewgall.cash.js');
 require('./zones/matthewgall/matthewgall.cf.js');
 require('./zones/matthewgall/matthewgall.chat.js');
+require('./zones/matthewgall/matthewgall.cloud.js');
 require('./zones/matthewgall/matthewgall.com.js');
 
 // South Wales Aviation Museum

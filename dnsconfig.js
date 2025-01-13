@@ -64,7 +64,7 @@ require('./zones/gallfamily/gallfamily.news.js');
 require('./zones/gallfamily/gallfamily.org.js');
 
 // Matthew Gall
-// require('./zones/matthewgall/matthewgall.com.js');
+require('./zones/matthewgall/matthewgall.com.js');
 
 // South Wales Aviation Museum
 require('./zones/swam/aviationmuseum.wales.js');

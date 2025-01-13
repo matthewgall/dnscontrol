@@ -61,6 +61,7 @@ require('./zones/gallfamily/gallfamily.me.js');
 require('./zones/gallfamily/gallfamily.net.js');
 require('./zones/gallfamily/gallfamily.network.js');
 require('./zones/gallfamily/gallfamily.news.js');
+require('./zones/gallfamily/gallfamily.org.js');
 
 // Matthew Gall
 // require('./zones/matthewgall/matthewgall.com.js');

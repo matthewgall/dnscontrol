@@ -3,9 +3,6 @@ D("matthewgall.com", REG_NONE, DnsProvider(DNS_CLOUDFLARE_MATTHEWGALL),
     CNAME("www", "matthewgall.pages.dev.", CF_PROXY_ON),
     AAAA("pgp", "100::", CF_PROXY_ON),
 	AAAA("download", "100::", CF_PROXY_ON),
-    // Servers
-	A("alpha", "65.108.196.124"),
-	AAAA("alpha", "2a01:4f9:1a:985e::2"),
     // MyOrderBox
     CNAME("manage.names", "cp.myorderbox.com."),
     CNAME("manage.domains", "cp-2.myorderbox.com."),

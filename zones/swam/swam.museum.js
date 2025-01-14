@@ -7,9 +7,7 @@ D("swam.museum", REG_NONE, DnsProvider(DNS_CLOUDFLARE_SWAM),
     CNAME("inbound", "track.smtp2go.net."),
     // Fastmail
     FASTMAIL_MX_RECORDS,
-	CNAME("fm1._domainkey", "fm1.swam.museum.dkim.fmhosted.com."),
-	CNAME("fm2._domainkey", "fm2.swam.museum.dkim.fmhosted.com."),
-	CNAME("fm3._domainkey", "fm3.swam.museum.dkim.fmhosted.com."),
+    FASTMAIL_DKIM('swam.museum'),
     CNAME("autodiscover", "swam-autodiscover.netlify.app."),
     // Zoho
     TXT("@", "zoho-verification=zb97145866.zmverify.zoho.eu"),

@@ -2,9 +2,7 @@ D("aviationmuseum.wales", REG_NONE, DnsProvider(DNS_CLOUDFLARE_SWAM),
     ALIAS("@", "swam-parked-domains.pages.dev.", CF_PROXY_ON),
     CNAME("www", "swam-parked-domains.pages.dev.", CF_PROXY_ON),
     // Migadu
-	CNAME("key1._domainkey", "key1.aviationmuseum.wales._domainkey.migadu.com."),
-	CNAME("key2._domainkey", "key2.aviationmuseum.wales._domainkey.migadu.com."),
-	CNAME("key3._domainkey", "key3.aviationmuseum.wales._domainkey.migadu.com."),
+	MIGADU_DKIM('aviationmuseum.wales'),
     TXT("@", "hosted-email-verify=s9wfcvle"),
     // Zoho
     ZOHO_MX_RECORDS,

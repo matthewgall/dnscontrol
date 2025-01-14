@@ -50,6 +50,13 @@ var FASTMAIL_DKIM = function(domain){
         CNAME("fm3._domainkey", "fm3." + domain + ".dkim.fmhosted.com."),
     ]
 }
+var MIGADU_DKIM = function(domain){
+    return [
+        CNAME("key1._domainkey", "key1." + domain + "._domainkey.migadu.com."),
+        CNAME("key2._domainkey", "key2." + domain + "._domainkey.migadu.com."),
+        CNAME("key3._domainkey", "key3." + domain + "._domainkey.migadu.com."),
+    ]
+}
 // Domains:
 
 //// Eagleswell

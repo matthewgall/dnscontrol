@@ -7,9 +7,7 @@ D("matthewgall.codes", REG_NONE, DnsProvider(DNS_CLOUDFLARE_MATTHEWGALL),
 	AAAA("alpha", "2a01:4f9:1a:985e::2"),
     // Fastmail
     FASTMAIL_MX_RECORDS,
-	CNAME("fm1._domainkey", "fm1.matthewgall.codes.dkim.fmhosted.com."),
-	CNAME("fm2._domainkey", "fm2.matthewgall.codes.dkim.fmhosted.com."),
-	CNAME("fm3._domainkey", "fm3.matthewgall.codes.dkim.fmhosted.com."),
+    FASTMAIL_DKIM('matthewgall.codes'),
     // SMTP2GO
 	CNAME("em627950", "return.smtp2go.net."),
 	CNAME("s627950._domainkey", "dkim.smtp2go.net."),

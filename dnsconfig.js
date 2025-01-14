@@ -42,6 +42,14 @@ var IMPROVMX_MX_RECORDS = [
     MX("@", 20, "mx2.improvmx.com."),
 ]
 
+// Functions:
+var FASTMAIL_DKIM = function(domain){
+    return [
+        CNAME("fm1._domainkey", "fm1." + domain + ".dkim.fmhosted.com."),
+        CNAME("fm2._domainkey", "fm2." + domain + ".dkim.fmhosted.com."),
+        CNAME("fm3._domainkey", "fm3." + domain + ".dkim.fmhosted.com."),
+    ]
+}
 // Domains:
 
 //// Eagleswell

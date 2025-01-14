@@ -19,8 +19,7 @@ D("gall.family", REG_NONE, DnsProvider(DNS_CLOUDFLARE_GALLFAMILY),
 	TXT("@", "zoho-verification=zb01778887.zmverify.zoho.com"),
 	TXT("zmail._domainkey", "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzBhKf48d5e6IgdKj7jTEPcGPZjNZvCMP6lNtfXqY9BZoZCSMZk1qQjPtbULiTExEBJg4k+hOJuAsq4/A2/yBdR2GrkB74pOWSvXQEe7Rhd9pt6z+JXLTkx/GFV5PfZ6CQ22q/y3Teu9AE5dgIa7RUjO+h/XbkPU5yVJwt1t2CJwIDAQAB"),
     // SMTP2GO
-	CNAME("s627950._domainkey", "dkim.smtp2go.net."),
-	CNAME("em627950", "return.smtp2go.net."),
+	SMTP2GO_RECORDS,
     // DMARC
 	TXT("_dmarc", "v=DMARC1; p=reject; rua=mailto:e322b350957840d9b1598d7c6c391f12@dmarc-reports.cloudflare.net"),
 	// SPF

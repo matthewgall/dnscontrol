@@ -9,13 +9,12 @@ D("matthewgall.codes", REG_NONE, DnsProvider(DNS_CLOUDFLARE_MATTHEWGALL),
     FASTMAIL_MX_RECORDS,
     FASTMAIL_DKIM('matthewgall.codes'),
     // SMTP2GO
-	CNAME("em627950", "return.smtp2go.net."),
-	CNAME("s627950._domainkey", "dkim.smtp2go.net."),
+	SMTP2GO_RECORDS,
 	// Mailgun
 	CNAME("email", "mailgun.org."),
 	TXT("pic._domainkey", "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDgvuNdEnk9FlHPKDYRMCDAGb7Q2qPAEplO2jourBFSCx8LGoe8lDxZNvTFP3/FLn3yHhgy4ueoyiMXtXhTbWPzuPDsnWgaWF2PdlVx2T3rXp8A+H58XAywjsgTfa0KKUriJkz8P/NjiG3XiGnY/oqSNzovc2YMtg+4Xn6zwxwEaQIDAQAB"),
     // DMARC
-	TXT("_dmarc", "v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;"),
+	TXT("_dmarc", "v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; rua=mailto:11556dee4a724179bb8e1c034de5067d@dmarc-reports.cloudflare.net;"),
 	// SPF
 	TXT("@", "v=spf1 include:spf.messagingengine.com include:mailgun.org -all"),
 END);

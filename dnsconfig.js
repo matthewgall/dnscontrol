@@ -86,6 +86,7 @@ require('./zones/matthewgall/matthewgall.cloud.js');
 require('./zones/matthewgall/matthewgall.codes.js');
 require('./zones/matthewgall/matthewgall.com.js');
 require('./zones/matthewgall/matthewgall.dev.js');
+require('./zones/matthewgall/matthewgall.domains.js');
 require('./zones/matthewgall/matthewgall.games.js');
 require('./zones/matthewgall/matthewgall.live.js');
 require('./zones/matthewgall/matthewgall.org.js');

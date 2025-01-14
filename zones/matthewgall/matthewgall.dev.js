@@ -6,7 +6,7 @@ D("matthewgall.dev", REG_NONE, DnsProvider(DNS_CLOUDFLARE_MATTHEWGALL),
 	A("alpha", "65.108.196.124"),
 	AAAA("alpha", "2a01:4f9:1a:985e::2"),
     // Fastmail
-    FASTMAIL_MX_RECORDS,
+    FASTMAIL_RECORDS,
     FASTMAIL_DKIM('matthewgall.dev'),
 	// Mailgun
 	TXT("pic._domainkey.no-reply", "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCLr2ryjJSRAqInS6oulyjiYsYvirv8TbhWqnDFgb/34hvQXQnnxx6agnjZNz7AtnfvY5QbquX5CC2Q/9y9Oy1eqZNi6JyJH2D9+gA9VusdUkQI726kXsZ1KCkO+RGVTLhHkhipy+n4p4PY8jck4x+1bUcpnVPYiJJ0PvLzMJjJwIDAQAB"),

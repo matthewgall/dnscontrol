@@ -6,7 +6,7 @@ D("matthewgall.codes", REG_NONE, DnsProvider(DNS_CLOUDFLARE_MATTHEWGALL),
 	A("alpha", "65.108.196.124"),
 	AAAA("alpha", "2a01:4f9:1a:985e::2"),
     // Fastmail
-    FASTMAIL_MX_RECORDS,
+    FASTMAIL_RECORDS,
     FASTMAIL_DKIM('matthewgall.codes'),
     // SMTP2GO
 	SMTP2GO_RECORDS,

@@ -2,14 +2,19 @@
   "bind": {
     "TYPE": "BIND"
   },
-  "cloudflare_gallfamily": {
+  "cloudflare_disabilitywatch": {
     "TYPE": "CLOUDFLAREAPI",
-    "accountid": "bc10fee56651a24f578ee57a2ce92a2e",
+    "accountid": "814c19d5cb5514bdd5c6ee9f223c86f0",
     "apitoken": "$CLOUDFLARE_DNSCONTROL_TOKEN"
   },
   "cloudflare_eagleswell": {
     "TYPE": "CLOUDFLAREAPI",
     "accountid": "84da30f98e5268d854f8780bb71b4dc8",
+    "apitoken": "$CLOUDFLARE_DNSCONTROL_TOKEN"
+  },
+  "cloudflare_gallfamily": {
+    "TYPE": "CLOUDFLAREAPI",
+    "accountid": "bc10fee56651a24f578ee57a2ce92a2e",
     "apitoken": "$CLOUDFLARE_DNSCONTROL_TOKEN"
   },
   "cloudflare_matthewgall": {

@@ -4,7 +4,7 @@ D("gallfamily.com", REG_NONE, DnsProvider(DNS_CLOUDFLARE_GALLFAMILY),
     // SMTP2GO
     SMTP2GO_RECORDS,
     // Zoho
-    ZOHO_MX_RECORDS,
+    ZOHO_RECORDS,
     TXT("@", "zoho-verification=zmverify.zoho.com"),
 	TXT("zoho._domainkey", "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYs2u+u6jCCsSe0wo2GQlrt+agDoJHa0nOqBV9+STOzQs5n6lwnpCKE3zk15JtEds237bQ6nfJ1QG5HYXGHCAj+DMFUDVS24cE7tkQXpyQOLrajkr8lTDTCi4it8sxW002SXmGciTD2pFh2CCzMOT4/XOXdUmNGh7ZAz1zOXzvpwIDAQAB"),
     // DMARC

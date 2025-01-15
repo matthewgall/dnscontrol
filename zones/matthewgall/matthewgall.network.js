@@ -1,7 +1,7 @@
 D("matthewgall.network", REG_NONE, DnsProvider(DNS_CLOUDFLARE_MATTHEWGALL),
 	CLOUDFLARE_DISCARD_RECORDS,
     // Zoho
-    ZOHO_MX_RECORDS,
+    ZOHO_RECORDS,
     CNAME("mail", "business.zoho.com."),
 	TXT("@", "zoho-verification=zb15659049.zmverify.zoho.com"),
 	TXT("zoho._domainkey", "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLERvyRejaC9To2Ka4L/WhX2E5679SxtDNEys29tF4f8olhn/LDdhdoVy6dEZmKoUmCo9QXmwpYRXsU01Jxb9y0DU2w0x7OW4VnTX8pi2jf0S189Mlx/YFeRzhJ96TmP+xqLsXlj07MH5lxouhfBgLcEKav5lNixQFuEb+eSE0swIDAQAB"),

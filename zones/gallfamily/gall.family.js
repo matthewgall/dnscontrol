@@ -15,7 +15,7 @@ D("gall.family", REG_NONE, DnsProvider(DNS_CLOUDFLARE_GALLFAMILY),
     // Nextcloud
 	CNAME("nextcloud", "nx20941.your-storageshare.de."),
     // Zoho
-    ZOHO_MX_RECORDS,
+    ZOHO_RECORDS,
 	TXT("@", "zoho-verification=zb01778887.zmverify.zoho.com"),
 	TXT("zmail._domainkey", "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzBhKf48d5e6IgdKj7jTEPcGPZjNZvCMP6lNtfXqY9BZoZCSMZk1qQjPtbULiTExEBJg4k+hOJuAsq4/A2/yBdR2GrkB74pOWSvXQEe7Rhd9pt6z+JXLTkx/GFV5PfZ6CQ22q/y3Teu9AE5dgIa7RUjO+h/XbkPU5yVJwt1t2CJwIDAQAB"),
     // SMTP2GO
